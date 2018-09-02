@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rappygatwali.counterf.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="@string/counter" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#deda05"
+        android:text="@string/getadds"
+        android:textColor="#fa0606"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banneradd"></com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/adView"
+        android:layout_below="@+id/adView"
+        android:layout_marginTop="8dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banneradd"></com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/adView2"
+        android:layout_below="@+id/adView2"
+        android:layout_marginTop="10dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banneradd"></com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/adView3"
+        android:layout_below="@+id/adView3"
+        android:layout_marginTop="11dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banneradd"></com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/adView4"
+        android:layout_below="@+id/adView4"
+        android:layout_marginTop="9dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banneradd"></com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/adView5"
+        android:layout_below="@+id/adView5"
+        android:layout_marginTop="10dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banneradd"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

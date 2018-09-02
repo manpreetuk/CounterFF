@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CounterF</string>
+    <string name="counter">Counter</string>
+    <string name="Reset">RESET</string>
+    <string name="getadds">GET ADDS</string>
+    <string name="banneradd">ca-app-pub-1051910356030770/2560202438</string>
+    <string name="fulladd"></string>
+</resources>
